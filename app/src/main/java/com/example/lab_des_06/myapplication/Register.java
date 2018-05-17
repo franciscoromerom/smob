@@ -21,7 +21,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Register extends Activity implements OnClickListener{
+public class
+Register extends Activity implements OnClickListener{
     private EditText user, pass;
     private Button  mRegister;
 
@@ -35,7 +36,8 @@ public class Register extends Activity implements OnClickListener{
     // private static final String REGISTER_URL = "http://xxx.xxx.x.x:1234/cas/register.php";
 
     //testing on Emulator:
-    private static final String REGISTER_URL = "http://10.0.2.2:1234/cas/register.php";
+   private static final String REGISTER_URL = "http://10.0.2.2:1234/cas/register.php";
+
 
     //ids
     private static final String TAG_SUCCESS = "success";

@@ -9,8 +9,10 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/password"
-        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="102dp"
         android:text="Username" />
 
     <EditText
@@ -33,11 +35,11 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
         android:gravity="center"
-        android:text="Base de datos remota tutorial"
+        android:text="Registrar"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
 
@@ -45,8 +47,8 @@
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView1"
         android:layout_below="@+id/TextView01"
-        android:layout_centerHorizontal="true"
         android:ems="10"
         android:inputType="textPassword" />
 
